@@ -17,14 +17,9 @@ This Fashion Recommender System suggests similar fashion items based on a given 
 - PIL for image processing.
 - tqdm for progress bars during feature extraction.
 
-Installat the following dependencies:
-
-tensorflow
-streamlit
-scikit-learn
-Pillow
-tqdm
-numpy
-opencv-python
+## How It Works
+1. Model Setup: The ResNet50 model (pre-trained on ImageNet) is used to extract features from images. The top layer is removed, and a GlobalMaxPooling2D layer is added to generate the final image embeddings.
+2. Feature Extraction: For each fashion item in the dataset, features are extracted and stored in embeddings.pkl. The uploaded image's features are compared to these stored embeddings using the K-Nearest Neighbors (KNN) algorithm.
+3. Recommendations: When a user uploads an image, the system computes the Euclidean distance between the extracted features and the stored embeddings. The closest items are returned as recommendations.
 
 Dataset :- https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
