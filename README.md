@@ -22,4 +22,4 @@ This deep learning based project Fashion Recommender System suggests similar fas
 2. Feature Extraction: For each fashion item in the dataset, features are extracted and stored in embeddings.pkl. The uploaded image's features are compared to these stored embeddings using the K-Nearest Neighbors (KNN) algorithm.
 3. Recommendations: When a user uploads an image, the system computes the Euclidean distance between the extracted features and the stored embeddings. The closest items are returned as recommendations.
 
-Dataset :- https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
+Dataset link :- https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
