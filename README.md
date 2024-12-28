@@ -10,12 +10,12 @@ This Fashion Recommender System suggests similar fashion items based on a given 
 - User Interface: Built using Streamlit for a simple and interactive UI.
   
 ## Requirements
-Python 3.7+
-tensorflow for the model and feature extraction.
-streamlit for the user interface.
-scikit-learn for the nearest neighbor search.
-PIL for image processing.
-tqdm for progress bars during feature extraction.
+- Python 3.7+
+- tensorflow for the model and feature extraction.
+- streamlit for the user interface.
+- scikit-learn for the nearest neighbor search.
+- PIL for image processing.
+- tqdm for progress bars during feature extraction.
 
 Installat the following dependencies:
 
