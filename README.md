@@ -1,7 +1,7 @@
 # Fashion-recommender-system
 
 ## Overview
-This Fashion Recommender System suggests similar fashion items based on a given image. The system utilizes a pre-trained ResNet50 model for feature extraction from images and a K-Nearest Neighbors (KNN) algorithm to recommend the most similar items based on image embeddings.
+This deep learning based project Fashion Recommender System suggests similar fashion items based on a given image. The system utilizes a pre-trained ResNet50 model for feature extraction from images and a K-Nearest Neighbors (KNN) algorithm to recommend the most similar items based on image embeddings.
 
 ## Features
 - Image Upload: Users can upload an image of a fashion item.
