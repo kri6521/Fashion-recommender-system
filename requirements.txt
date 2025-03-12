@@ -1,0 +1,10 @@
+streamlit
+numpy
+scipy
+pandas
+tensorflow
+scikit-learn
+opencv-python
+pillow
+tqdm
+pickle5
